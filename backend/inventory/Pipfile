@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.75.0"
+uvicorn = {extras = ["standard"], version = "*"}
+redis-om = "==0.0.20"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
